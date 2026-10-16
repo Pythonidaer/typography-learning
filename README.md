@@ -20,3 +20,9 @@ Vocabulary: https://pythonidaer.github.io/typography-learning/vocabulary.html
 The vocabulary page includes 43 terms across six topics, search, and practice links that configure the font library. Definitions remain readable without JavaScript; search and menu enhancement require it.
 
 GitHub Pages deploys dist/ through .github/workflows/deploy-pages.yml on relevant pushes to main. Set Settings > Pages > Source to GitHub Actions.
+
+## Resources
+
+https://pythonidaer.github.io/typography-learning/resources.html
+
+All 16 curated articles are grouped into four parts: concepts and vocabulary, choosing and pairing fonts, history of print and web typography, and typography on modern websites. The page includes short descriptions, reading notes, and full source URLs.

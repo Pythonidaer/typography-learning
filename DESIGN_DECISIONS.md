@@ -38,3 +38,9 @@ Reference inspected on GitHub: design-practice dist/index.html selects navigatio
 Vocabulary uses short original definitions, with further reading from Google Fonts Knowledge, Monotype's anatomy glossary, and MDN CSS documentation. The menu uses no emoji or substitute text glyphs. No font catalogue or saved-favorite data was changed.
 
 Verification: all JavaScript syntax checks passed. Navigation state tests exercised open, close, Escape, outside-click dismissal, focus departure, breakpoint changes, and scroll styling. Both HTML pages passed local link/script and unique-ID checks. Browser control is unavailable, so mobile Safari layout, blur rendering, transitions, enlarged-text behavior, and focus geometry remain unverified visually.
+
+## Resources page (2026-10-16)
+
+Added all 16 articles from the requested reading path, grouped into concepts/vocabulary, choosing/pairing, print-to-web history, and modern implementation. Short original descriptions explain why each article is useful. Historical notes and author-opinion caveats travel with the relevant links. Full URLs wrap on mobile, and external articles consistently open in a new tab with a visible notice. Shared navigation includes Resources on all three pages, with the current page identified.
+
+Decision: use a numbered reading list with plain rules and spacing, keeping the established typography and header. Alternative: cards or a separate reading tracker, neither needed for the requested reference page. Verification: all 16 unique article URLs and local navigation targets checked; rendered layout remains unverified because browser control is unavailable.
