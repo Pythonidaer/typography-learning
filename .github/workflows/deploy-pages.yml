@@ -37,6 +37,9 @@ jobs:
           test -s dist/fonts.json
           node --check dist/app.js
           node --check dist/icons.js
+          node --check dist/navigation.js
+          node --check dist/vocabulary.js
+          test -s dist/vocabulary.html
           node -e "const data = require('./dist/fonts.json'); if (!Array.isArray(data.fonts) || !data.fonts.length) process.exit(1)"
 
       - name: Configure GitHub Pages
