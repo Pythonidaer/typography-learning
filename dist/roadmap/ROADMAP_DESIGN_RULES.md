@@ -89,3 +89,8 @@ These rules apply to the approved Typography roadmap, including its integrated t
 - Do not animate, slide, or fade either the panel or its overlay.
 - Keep internal vertical scrolling, native modal focus containment, Escape/backdrop dismissal, and the existing compact close control.
 - Preserve the approved full-screen mobile layout at 700px and below. Keep these desktop overrides scoped to the roadmap dialog.
+
+## 11. Navigation and footer
+
+- Roadmap is the last menu item on every Type Study page: last/rightmost in desktop navigation and bottommost in the mobile dropdown.
+- Omit the repeated Type Study heading and vocabulary-count/source sentence from the roadmap footer. Retain the design rules link.

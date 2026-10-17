@@ -54,3 +54,7 @@ Validation: CSS hash parity with the approved source; JavaScript syntax; local r
 ## Desktop roadmap topic panel (2026-10-17)
 
 At widths above 700px, the roadmap’s topic dialog now fills the viewport height at the right edge, with a 600px reading width and a lightly darkened 25% black overlay. Opening and closing have no slide or fade transition. Mobile retains its existing fullscreen modal. Existing native dialog keyboard, backdrop dismissal, and focus-return behavior remain. This is limited to the roadmap; catalogue dialogs are unchanged. Source checks passed; rendered larger-screen confirmation remains pending.
+
+## Roadmap navigation and footer cleanup (2026-10-17)
+
+Moved Roadmap to the final navigation position on all four pages, preserving existing navigation styles. Removed the repeated Type Study heading and vocabulary-source sentence from the roadmap footer, retaining its design rules link. The previously added immediate desktop right-side topic panel remains intact; mobile and diagram styles are unchanged.
