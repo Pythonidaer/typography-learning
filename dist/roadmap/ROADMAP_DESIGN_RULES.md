@@ -74,10 +74,18 @@ These rules apply to the approved Typography roadmap, including its integrated t
 - Remove the browser dialog’s default margins and maximum dimensions. Use the full available website viewport, an opaque white surface, and internal vertical scrolling.
 - Integrate a compact close button in the modal’s top-right corner. Use the approved 18px close SVG inside a transparent 40px button. Do not reserve an entire controls row or add a gray tile. Respect safe-area insets and reserve focus clearance beside the topic metadata.
 - Present the topic title, definition, example, practice, and source as readable content. Use 18px definition text with 1.7 line height.
-- Keep Escape dismissal, modal focus containment, and return focus to the originating node. Desktop retains a bounded dialog.
+- Keep Escape dismissal, modal focus containment, and return focus to the originating node. Desktop uses the full-height right-side panel defined below.
 - Do not recreate the reference’s unrelated signup, AI, or account toolbar controls.
 
 ## 9. Minimal interface copy
 
 - No Zoom/Fit toolbar or instructions referring to a zoom toggle. Keep automatic width fitting and native pinch zoom enabled.
 - Do not show “Your typography-learning vocabulary page” or other repetitive source metadata in topic modals. Maintain provenance in project documentation and retain the useful further-reading link.
+
+## 10. Larger-screen topic panel
+
+- Above 700px, topic information opens immediately in a 600px-wide panel against the right viewport edge, filling the viewport height. Cap width at the available viewport.
+- Use a lightly darkened, unblurred overlay: rgba(0,0,0,.25).
+- Do not animate, slide, or fade either the panel or its overlay.
+- Keep internal vertical scrolling, native modal focus containment, Escape/backdrop dismissal, and the existing compact close control.
+- Preserve the approved full-screen mobile layout at 700px and below. Keep these desktop overrides scoped to the roadmap dialog.

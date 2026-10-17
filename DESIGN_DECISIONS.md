@@ -50,3 +50,7 @@ Decision: use a numbered reading list with plain rules and spacing, keeping the 
 Added Roadmap to the existing menu on the catalogue, vocabulary, and resources pages, and imported the user-approved roadmap under `dist/roadmap/`. The roadmap’s approved `roadmap.css` and `navigation.css` are copied unchanged and kept separate from the parent page styles. Changes inside the imported page are limited to navigation labels and same-site URL paths. The compact graph, 43 source vocabulary terms, fit-to-width geometry, connector styles, information-only fullscreen mobile modal, and small close control are retained.
 
 Validation: CSS hash parity with the approved source; JavaScript syntax; local route and anchor checks; current navigation state and deployment workflow coverage. Rendered desktop, tablet, and iOS feedback remains for user review; no visual changes are claimed from source checks alone.
+
+## Desktop roadmap topic panel (2026-10-17)
+
+At widths above 700px, the roadmap’s topic dialog now fills the viewport height at the right edge, with a 600px reading width and a lightly darkened 25% black overlay. Opening and closing have no slide or fade transition. Mobile retains its existing fullscreen modal. Existing native dialog keyboard, backdrop dismissal, and focus-return behavior remain. This is limited to the roadmap; catalogue dialogs are unchanged. Source checks passed; rendered larger-screen confirmation remains pending.
