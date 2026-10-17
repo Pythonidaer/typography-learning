@@ -41,6 +41,11 @@ jobs:
           node --check dist/vocabulary.js
           test -s dist/vocabulary.html
           test -s dist/resources.html
+          test -s dist/roadmap/index.html
+          node --check dist/roadmap/roadmap.js
+          node --check dist/roadmap/topics.js
+          node --check dist/roadmap/navigation.js
+          node --check dist/roadmap/icons.js
           node -e "const data = require('./dist/fonts.json'); if (!Array.isArray(data.fonts) || !data.fonts.length) process.exit(1)"
 
       - name: Configure GitHub Pages

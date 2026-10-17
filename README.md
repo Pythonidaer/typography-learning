@@ -26,3 +26,9 @@ GitHub Pages deploys dist/ through .github/workflows/deploy-pages.yml on relevan
 https://pythonidaer.github.io/typography-learning/resources.html
 
 All 16 curated articles are grouped into four parts: concepts and vocabulary, choosing and pairing fonts, history of print and web typography, and typography on modern websites. The page includes short descriptions, reading notes, and full source URLs.
+
+## Typography roadmap
+
+Open https://pythonidaer.github.io/typography-learning/roadmap/ or choose **Roadmap** in the menu. This imports the approved ChatGPT Site version as a separate page within this website. Its CSS, diagram sizing, connections, fullscreen mobile modals, and compact close control are preserved. The roadmap has no search, list view, progress, next-topic actions, or zoom toolbar. Native pinch zoom and automatic sizing remain.
+
+The roadmap uses its own assets in `dist/roadmap/`; it does not load the catalogue stylesheet. Its design rules are in `dist/roadmap/ROADMAP_DESIGN_RULES.md`. Shared navigation links connect all four pages without replacing either page’s styles.
