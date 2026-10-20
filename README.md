@@ -25,10 +25,16 @@ GitHub Pages deploys dist/ through .github/workflows/deploy-pages.yml on relevan
 
 https://pythonidaer.github.io/typography-learning/resources.html
 
-All 16 curated articles are grouped into four parts: concepts and vocabulary, choosing and pairing fonts, history of print and web typography, and typography on modern websites. The page includes short descriptions, reading notes, and full source URLs.
+All 17 curated articles are grouped into four parts: concepts and vocabulary, choosing and pairing fonts, history of print and web typography, and typography on modern websites. The page includes short descriptions, reading notes, and full source URLs.
 
 ## Typography roadmap
 
 Open https://pythonidaer.github.io/typography-learning/roadmap/ or choose **Roadmap** in the menu. This imports the approved ChatGPT Site version as a separate page within this website. Its CSS, diagram sizing, connections, fullscreen mobile modals, and compact close control are preserved. The roadmap has no search, list view, progress, next-topic actions, or zoom toolbar. Native pinch zoom and automatic sizing remain.
 
 The roadmap uses its own assets in `dist/roadmap/`; it does not load the catalogue stylesheet. Its design rules are in `dist/roadmap/ROADMAP_DESIGN_RULES.md`. Shared navigation links connect all four pages without replacing either page’s styles.
+
+## Choosing Type roadmap
+
+https://pythonidaer.github.io/typography-learning/roadmap/choosing-type.html
+
+Choose **Roadmap**, then **Choosing Type**. The additional roadmap follows the six-stage workflow from Jonathan Z. White's freeCodeCamp article, with 24 independently authored supporting lessons, practical examples, exercises, and further-reading links. The original vocabulary roadmap remains available beside it. Both use the approved diagram geometry, navigation, and topic-panel styles. Sources and scope are recorded in `dist/roadmap/CHOOSING_TYPE.md`.

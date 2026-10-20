@@ -58,3 +58,13 @@ At widths above 700px, the roadmap’s topic dialog now fills the viewport heigh
 ## Roadmap navigation and footer cleanup (2026-10-17)
 
 Moved Roadmap to the final navigation position on all four pages, preserving existing navigation styles. Removed the repeated Type Study heading and vocabulary-source sentence from the roadmap footer, retaining its design rules link. The previously added immediate desktop right-side topic panel remains intact; mobile and diagram styles are unchanged.
+
+## Choosing Type roadmap (2026-10-19)
+
+Added Jonathan Z. White's freeCodeCamp article to the choosing/pairing resource group, increasing the reading list to 17 articles. Added a separate Choosing Type roadmap selected through a local two-link navigation on both roadmap pages. Main navigation retains Roadmap as its last item.
+
+Decision: share the existing diagram renderer, stylesheet, navigation, and dialog implementation. Reason: preserve the approved diagram and reading-panel design while changing the learning content. Alternative: create a separate visual system or overwrite the vocabulary roadmap; neither serves this request. The renderer now accepts optional per-topic source labels and group links, with existing vocabulary defaults retained.
+
+Content: six stages follow the article's workflow; 24 supporting lessons, examples, and practice tasks are authored for Type Study. Source scope and design exceptions are recorded in dist/roadmap/CHOOSING_TYPE.md. Historical tool references in the article are noted on the resource page.
+
+Verification: JavaScript syntax, HTML links and anchors, unique topic IDs, topic completeness, resource numbering, graph bounds, and fit geometry checked. The original roadmap has six groups and 43 terms. The new roadmap has six groups and 24 supporting topics. Local browser testing could not run because Chromium was unavailable and its download failed; native iOS/pinch-zoom review remains separate from source checks.
