@@ -21,10 +21,12 @@ Some commercial services, tool names, and recommendations in the historical arti
 
 This is an additional roadmap at choosing-type.html, selected beside the existing vocabulary roadmap. It uses the existing roadmap.css, navigation assets, icons.js, and shared roadmap.js. It intentionally preserves the 1000-unit canvas, compact nodes, blue connectors, fit-to-width behavior, mobile fullscreen topic dialogs, and immediate desktop right-side panels specified in ROADMAP_DESIGN_RULES.md.
 
-The vocabulary-only content/parity rules in that document continue to govern the vocabulary roadmap. Choosing Type instead has six original stage summaries and 24 stable supporting topic IDs. Its main nodes link to the article, and supporting nodes link to relevant vocabulary or further reading.
+The vocabulary-only content/parity rules in that document continue to govern the vocabulary roadmap. Choosing Type instead has six original stage summaries and 24 stable supporting topic IDs. Its main nodes link to matching sections of the local ../choosing-type.html article, and supporting nodes link to relevant vocabulary or further reading.
 
 The renderer accepts optional group URLs, examples, and link labels, retaining the original vocabulary defaults. No diagram, navigation, or dialog styles are replaced. roadmap-links.css adds only the local roadmap selector and reading link. Roadmap remains the final main-navigation item.
 
 ## Verification
 
 Check both roadmaps at 320, 375, 390, 430, 768, and desktop widths; check every node, source link, diagram bounds, keyboard dismissal, return focus, current-page indication, and navigation. Native pinch zoom and the ChatGPT iOS viewer require separate device review.
+
+The local article organizes Johnny’s handwritten notes and includes project ideas at the bottom. Its resource section preserves the original reading and distinguishes historical references from working reference destinations.

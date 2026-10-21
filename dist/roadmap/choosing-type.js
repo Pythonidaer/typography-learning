@@ -6,8 +6,8 @@ const roadmapGroups = [
     "definition": "Set the job of the text before selecting its appearance.",
     "example": "A portfolio needs visitors to find projects and understand your contribution.",
     "exercise": "Write a one-sentence goal for your portfolio and identify its most important text.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#purpose",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "reading-task",
@@ -53,8 +53,8 @@ const roadmapGroups = [
     "definition": "Understand who will read the text and under what conditions.",
     "example": "A recruiter may scan your portfolio on a phone before opening a detailed case study.",
     "exercise": "Describe one reader, their task, device, and likely reading conditions.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#audience",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "reader-needs",
@@ -100,8 +100,8 @@ const roadmapGroups = [
     "definition": "Collect examples and identify the decisions worth testing.",
     "example": "Two portfolios can use the same family yet feel different because of spacing and hierarchy.",
     "exercise": "Collect three references and describe one useful decision in each.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#inspiration",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "reference-analysis",
@@ -147,8 +147,8 @@ const roadmapGroups = [
     "definition": "Compare candidates in their intended roles before committing.",
     "example": "A face that works for a six-word heading may struggle in a long case study.",
     "exercise": "Select a heading and body treatment, and give one practical reason for each.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#selection",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "body-and-display",
@@ -194,8 +194,8 @@ const roadmapGroups = [
     "definition": "Establish a hierarchy that works with the selected fonts.",
     "example": "A project title, section title, paragraph, and caption need a clear relationship.",
     "exercise": "Create a small set of sizes and test it on a real project page.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#sizing",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "starting-size",
@@ -241,8 +241,8 @@ const roadmapGroups = [
     "definition": "Record the decisions so they can be applied consistently.",
     "example": "A type guide connects heading, paragraph, caption, and action styles to actual examples.",
     "exercise": "Write a short guide that someone else could use to reproduce your text styles.",
-    "url": "https://www.freecodecamp.org/news/typography-can-make-your-design-or-break-it-7be710aadcfe/",
-    "linkLabel": "Read the freeCodeCamp article",
+    "url": "../choosing-type.html#type-guide",
+    "linkLabel": "Read this section in Choosing type",
     "terms": [
       {
         "id": "role-specifications",
